@@ -25,7 +25,7 @@ public class LoginPage extends WebDriverManager {
 
     //Actions
     public String validateTitle() {
-        System.out.println("This is title" + driver.getTitle().toString());
+        System.out.println("This is git title" + driver.getTitle().toString());
         return driver.getTitle();
 
 
